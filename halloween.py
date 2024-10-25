@@ -9,7 +9,7 @@ frijoles = 32
 device = None
 
 pygame.mixer.init()
-pygame.mixer.music.load('/home/pi/Desktop/halloween/static/scream.mp3')
+pygame.mixer.music.load('/home/raspi/Desktop/halloween/static/scream.mp3')
 
 def activate_device(device_name):
     GPIO.setup(device_name, GPIO.OUT)
